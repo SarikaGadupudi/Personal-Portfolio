@@ -17,9 +17,8 @@
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  flex-direction: space-between;
+  padding: 20px;
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -35,4 +34,21 @@
   to {
     transform: rotate(360deg);
   }
+}
+.name {
+  color: blanchedalmond;
+  margin-left: 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.navbar {
+  display: flex;
+  gap: 40px;
+  margin-left: 900px;
+  position: absolute;
+  top: 26px;
+}
+.navBarLink {
+  color: blanchedalmond;
 }

@@ -1,0 +1,123 @@
+/* Portfolio styles */
+.App {
+  text-align: center;
+}
+
+/* .App-logo {
+  height: 40vmin;
+  pointer-events: none;
+} */
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+ */
+.App-header {
+  background-color: black;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: space-between;
+  padding: 20px;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+/* @keyframes name-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+@keyframes fade {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.name {
+  color: white;
+  margin-left: 150px;
+  position: absolute;
+  top: 5px;
+  left: 0;
+  font-size: 120%;
+  animation: fade 3s infinite;
+}
+.navbar {
+  display: flex;
+  gap: 60px;
+  margin-left: 700px;
+  position: absolute;
+  top: 32px;
+  font-size: 120%;
+}
+.navBarLink {
+  color: white;
+}
+.about-container {
+  font-size: 150%;
+  font-weight: bold;
+  margin-left: 960px;
+  position: absolute;
+  top: 180px;
+}
+.about {
+  font-size: 150%;
+  font-weight: bold;
+  color: white;
+
+}
+.about-name {
+  font-size: 150%;
+  font-weight: bold;
+  background: linear-gradient(90deg, skyblue,white, skyblue);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+.profile-image {
+  width: 600px; 
+  height: auto;
+  border-radius: 50%;
+  margin-top: 150px;
+}
+.typewriter {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: white;
+  /* border-right: 2px solid white; */
+  white-space: nowrap;
+  overflow: hidden;
+  margin-left: 1050px;
+  position: absolute;
+  top: 400px;
+}
+.about-content {
+  margin-left: 800px;
+  position: absolute;
+  top: 500px;
+  /* background: linear-gradient(90deg, skyblue, white);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+  white-space: nowrap;
+  overflow: auto;
+  color: transparent; /* Make the base text color transparent */
+  background: linear-gradient(
+    90deg,
+    skyblue,
+    white,
+    #33d9ff
+  ); /* Apply a multi-color gradient */
+  background-clip: text; /* Clip the gradient to the text */
+  -webkit-background-clip: text; /* Safari support */
+  -webkit-text-fill-color: transparent;
+}
